@@ -12,10 +12,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class task2 {
     public static void main(String[] args) {
-
         ArrayList<Integer> arr = fillArray();
         System.out.println(percentUniq(arr));
-
     }
 
     public static ArrayList<Integer> fillArray() {
